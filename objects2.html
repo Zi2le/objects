@@ -31,19 +31,19 @@
     // Add your code here
 
     bandInfo = {}
- bandInfo.name = 'xander'
- bandInfo.nationality = 'nigeria',
- bandInfo.genre = 'horror',
- bandInfo,members = 2,
+ bandInfo.name = 'Xander'
+ bandInfo.nationality = 'Nigeria',
+ bandInfo.genre = 'Horror',
+ bandInfo.members = 2,
  bandInfo.formed = 2004,
  bandInfo.split = 'false',
  bandInfo.albums = [{name: 'Tear', released: 2004}, {name: 'You Never Walk Alone' , released: 2017}] 
 
     // Don't edit the code below here!
-    band = `${bandInfo.name} is a popular group in which the members hail from ${bandInfo.nationality} they were brought into light in the year ${bandInfo.formed} their genre is mostly ${bandInfo.genre}. Their first album  ${bandInfo.albums[0].name}' was released  in the year ${bandInfo.albums[0].released}`
+    band = `${bandInfo.name} is a popular group in which the members hail from ${bandInfo.nationality} they were brought into light in the year ${bandInfo.formed} their genre is mostly ${bandInfo.genre}. Their first album  ${bandInfo.albums[0].name} was released  in the year ${bandInfo.albums[0].released}`
     const section = document.querySelector('section');
     let para1 = document.createElement('p');
-    para1.textContent = bandInfo;
+    para1.textContent = band;
     section.appendChild(para1);
   </script>
 
